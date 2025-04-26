@@ -1,0 +1,113 @@
+/* SignupScreen.css */
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 20vw;
+    /* padding: 2rem; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f7f8f9; */
+  }
+  
+  .signup-card {
+    background-color: #f7f8f9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .signup-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .signup-form-group {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >label{
+      background-color: #fff;
+      position: absolute;
+      top:-7px;
+      left:25px;
+    }
+  }
+  
+  .signup-form-label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+    color: #6c25ff;
+    font-weight: 500;
+  }
+  
+  .signup-form-input {
+    width: 17vw;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .signup-required {
+    color: #dd4a3d;
+    margin-left: 2px;
+  }
+  
+  .signup-radio-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .signup-radio-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-radio-input {
+    width: 1rem;
+    height: 1rem;
+    accent-color: #7B3FD1;
+  }
+  
+  .signup-radio-label {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .signup-btn {
+    align-self: flex-end;
+    display: block;
+    width: 17vw;
+text-decoration: none;
+color: white;
+font-weight: 700;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30vh;
+    margin-left: 1vw;
+  }
+  
+  .signup-btn-primary {
+    background-color: #6c25ff;
+    color: white;
+  }

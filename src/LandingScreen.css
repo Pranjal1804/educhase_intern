@@ -1,0 +1,65 @@
+/* LandingScreen.css */
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 15vw;
+    justify-content: end;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  .landing-card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 450px;
+    padding-inline: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+  }
+  
+  .landing-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .landing-subtitle {
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .landing-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 0.75rem;
+  }
+  
+  .landing-btn-primary {
+    background-color: #6c25ff;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .landing-btn-secondary {
+    background-color: #6c25ff4b;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  
